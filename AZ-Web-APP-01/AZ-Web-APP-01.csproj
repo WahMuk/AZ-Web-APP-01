@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>AZ_Web_APP_01</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/bd25272b-0519-435f-a1a9-c81293076ea0/resourceGroups/AZ-APP/providers/microsoft.insights/components/AZ-WEB-APP</ApplicationInsightsResourceId>
+    <UserSecretsId>a53f046f-5324-4bf4-b1d3-c177ab1ea49b</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
